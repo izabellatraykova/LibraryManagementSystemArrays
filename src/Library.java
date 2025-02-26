@@ -95,7 +95,7 @@ class Book{
 
     public String getDetails(){
         if (borrowerName == null){
-            return "Title: " + title + " | " + "Author: " + author + " | " + "Year Published: " + yearPublished;
+            return "Title: " + title + " | " + "Author: " + author + " | " + "Year Published: " + yearPublished + " | " + "Borrowed By: Available";
         }
         return "Title: " + title + " | " + "Author: " + author + " | " + "Year Published: " + yearPublished + " | " + "Borrowed By: " + borrowerName;
     }
